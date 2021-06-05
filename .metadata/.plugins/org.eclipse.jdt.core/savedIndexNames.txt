@@ -1,3 +1,0 @@
-INDEX VERSION 1.131+C:\Users\sethu\eclipse-workspace\.metadata\.plugins\org.eclipse.jdt.core
-1315459767.index
-4010727911.index
