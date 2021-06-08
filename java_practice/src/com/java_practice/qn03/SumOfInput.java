@@ -1,4 +1,4 @@
-package com.java_practive.qn03;
+package com.java_practice.qn03;
 
 public class SumOfInput {
 	public static void main(String[] args) {
