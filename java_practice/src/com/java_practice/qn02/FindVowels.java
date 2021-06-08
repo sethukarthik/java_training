@@ -13,10 +13,6 @@ public class FindVowels {
 			}
 		}
 		
-		if(no_of_vowels == 0) {
-			System.out.println("There is not vowels in the input");
-		}else {
-			System.out.println("The number of vowels in the inputs are: " + no_of_vowels);
-		}
+		System.out.println("The number of vowels in the inputs are: " + no_of_vowels);
 	}
 }
