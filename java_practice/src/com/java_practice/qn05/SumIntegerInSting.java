@@ -27,5 +27,5 @@ public class SumIntegerInSting {
 }
 
 
-//ToDo: Since the method using nested loop this won't look good time complexity.
-//ToDo: Need to know how method worked write the Integer parse in a seperate method and call the method
+//TODO: Since I am using nested loop to find the output. This is not good on time efficient.
+//TODO: Need to know how to include method. Write the Integer parse in a separate method and call the method.
