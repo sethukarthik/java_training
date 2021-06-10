@@ -5,13 +5,13 @@ public class ConcatChar {
 		String[] input_1 = {"abc", "de", "ram", "sethu"};
 		int input_2 = 3;
 		
-		String conc_string = "";
+		StringBuilder conc_string = new StringBuilder();
 		//Iterate the array
 		for(String n: input_1) {
 			if(n.length() >= 3) {
-				conc_string += n.charAt(input_2-1);
+				conc_string.append(n.charAt(input_2-1));
 			}else {
-				conc_string += "$";
+				conc_string.append("$");
 			}
 		}
 		System.out.println(conc_string);
