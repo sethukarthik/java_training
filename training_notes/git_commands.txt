@@ -1,0 +1,14 @@
+git add -> To add new file
+
+git commit -m "Comments to describe the changes" -> To commit added or modified files
+
+git push origin branch_name -> To push the changes to the refered branch
+	(branch_name -> main)
+
+git clone path_name(http or ssh) -> To clone the Github project to our local
+
+git log - To see the sumitted list
+
+git diff - To see the changes
+
+git rm --cache - To clean stages files

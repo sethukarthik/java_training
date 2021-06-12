@@ -1,0 +1,5 @@
+Week -3 
+	Links
+		1. https://docs.oracle.com/javase/specs/index.html
+		2. https://docs.oracle.com/javase/tutorial/java/javaOO/objectcreation.html
+		3. https://docs.oracle.com/javase/tutorial/java/index.html
