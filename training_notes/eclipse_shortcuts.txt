@@ -9,3 +9,6 @@ ctrl + d = delete a line
 ctrl + / = comment/uncomment
 ctrl + w = close window
 ctrl + shift + w = close all window
+ctrl + space - To autocomplete
+ctrl + alt + down/up arrow - copy down the above line.
+alt + down/up arrow - move down the line
