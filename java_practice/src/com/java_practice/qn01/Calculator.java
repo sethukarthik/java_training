@@ -1,7 +1,10 @@
 package com.java_practice.qn01;
 
+import com.java_training.day06.Days;
+
 public class Calculator {
 	public static void main(String[] args) {
+		System.out.println(Days.MONDAY);
 		//Getting input from argument
 		if(args.length == 2) {
 			try {

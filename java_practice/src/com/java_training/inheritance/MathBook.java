@@ -8,7 +8,7 @@ public class MathBook extends Book{
 //		this(10);
 		super(10);
 		// TODO Auto-generated constructor stub
-		System.out.println("I am Math COnstructor");
+//		System.out.println("I am Math COnstructor");
 	}
 	
 	MathBook(int i){
@@ -19,6 +19,11 @@ public class MathBook extends Book{
 	void read() {
 		System.out.println(this.id);
 		System.out.println("I am from MathBook");
+	}
+	
+	@Override
+	public String toString() {
+		return "GenericDemo [id=" + ", getClass()=" + getClass() + ", hashCode()=" + hashCode() + ", toString()=" + super.toString() + "]";
 	}
 
 }

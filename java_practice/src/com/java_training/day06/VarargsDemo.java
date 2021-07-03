@@ -11,11 +11,15 @@ public class VarargsDemo {
 //	static void read(Book... books) {
 //		System.out.println("This is book");
 //	}
-//	
-//	static void read(int a, Book... books) {
-//		System.out.println("This is Integer Book");
-//	}
-//	
+	
+	static void read(Book...books) {
+//		System.out.println(a);
+		for (Book book : books) {
+			System.out.println(book.id);
+		}
+		System.out.println("This is Integer Book");
+	}
+	
 //	static void read(Object... objects) {		
 //		System.out.println("This is Science");
 //	}
@@ -27,18 +31,15 @@ public class VarargsDemo {
 	}
 	
 	public static void main(String[] args) {
-		Book bk = new Book();
-		ScienceBook sb = new ScienceBook();
+		Book bk;
+		bk = new ScienceBook();
 		MathBook mb = new MathBook();
 		String d = Days.da();
-		System.out.println(d);
-//		read(10, bk);
-//		read(sb);
-		gen("sethu","Karthi");
+//		System.out.println(d);
+//		read(10, 20);
+		read(bk, mb);
+//		gen("sethu","Karthi");
 		
-		for(Days days : Days.values()) {
-			System.out.println(days);
-			System.out.println(days.ordinal());
-		}
+//		 
 	}
 }

@@ -1,8 +1,8 @@
 package com.java_training.inheritance;
 
-public class ScienceBook {
-	int id=1;
-	String chapterName="ScienceClass";
+public class ScienceBook extends Book {
+//	public int id=1;
+//	String chapterName="ScienceClass";
 	
 	void read() {
 //		super.read();
