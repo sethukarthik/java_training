@@ -2,10 +2,29 @@ package com.java_training.day06;
 
 import java.util.Objects;
 
-public class EmployeeHash {
-	int id;
-	String name;
+public class EmployeeHash implements Cloneable {
+	public int id;
+	public String name;
+	private Department dept;
 	
+	public Department getDept() {
+		return dept;
+	}
+
+	public void setDept(Department dept) {
+		this.dept = dept;
+	}
+
+	public EmployeeHash() {
+		
+	}
+	
+	public EmployeeHash(int id, String name) {
+		super();
+		this.id = id;
+		this.name = name;
+	}
+
 	public static void main(String[] args) {
 		EmployeeHash e1 = new EmployeeHash();
 		e1.id = 10;
@@ -41,6 +60,10 @@ public class EmployeeHash {
 			return false;
 		EmployeeHash other = (EmployeeHash) obj;
 		return id == other.id && Objects.equals(name, other.name);
+	}
+	
+	public Object clone() throws CloneNotSupportedException {
+		return super.clone();	
 	}
 	
 }

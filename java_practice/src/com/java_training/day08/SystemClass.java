@@ -24,9 +24,9 @@ public class SystemClass {
 		
 		int[] array = {1,2,3,4,5,6};
 		int[] newArray = new int[5];
-		System.arraycopy(array, 2, newArray, 0, array.length);
-		for(int i: newArray) {
-			System.out.println(i);
-		}
+//		System.arraycopy(array, 2, newArray, 0, array.length);
+//		for(int i: newArray) {
+//			System.out.println(i);
+//		}
 	}
 }

@@ -15,7 +15,7 @@ public class Book {
 	}
 	
 	void read() {
-//		System.out.println("I am from BOOK");
+		System.out.println("I am from BOOK");
 	}
 	
 	@Override

@@ -1,6 +1,6 @@
 package com.java_training.day07;
 
-public class BufferBuilder {
+public class BufferBuilder implements Cloneable{
 	
 	public static void main(String[] args) {
 		String test = "Testing";

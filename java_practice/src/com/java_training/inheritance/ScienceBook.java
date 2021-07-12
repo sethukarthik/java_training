@@ -4,6 +4,7 @@ public class ScienceBook extends Book {
 //	public int id=1;
 //	String chapterName="ScienceClass";
 	
+	@Override
 	void read() {
 //		super.read();
 //		super.samp="haha";
@@ -11,6 +12,10 @@ public class ScienceBook extends Book {
 //		System.out.println(this.id);
 //		System.out.println(super.id);
 		System.out.println("I am from ScienceBook");
+	}
+	
+	public void Book(){
+//		System.out.println("I am Book COnstructor");
 	}
 	
 	static void getRead() {

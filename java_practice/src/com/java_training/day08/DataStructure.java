@@ -8,7 +8,7 @@ import java.util.Map.Entry;
 public class DataStructure {
 	public static void main(String[] args) {
 //		// Creating an empty HashSet
-        HashSet<String> set = new HashSet<String>();
+        HashSet<String> set = new HashSet<>();
   
         // Use add() method to add elements into the Set
         set.add("Welcome");
