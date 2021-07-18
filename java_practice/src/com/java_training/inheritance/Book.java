@@ -7,11 +7,11 @@ public class Book {
 	String chapterName = "BookClass";
 	
 	public Book(){
-//		System.out.println("I am Book COnstructor");
+		System.out.println("I am Book COnstructor");
 	}
 	
 	Book(int r){
-//		System.out.println("I am Book COnstructor-2");
+		System.out.println("I am Book COnstructor-2");
 	}
 	
 	void read() {

@@ -5,10 +5,8 @@ public class MathBook extends Book{
 	String chapterName="MathClass";
 	
 	public MathBook() {
-//		this(10);
 		super(10);
-		// TODO Auto-generated constructor stub
-//		System.out.println("I am Math COnstructor");
+		System.out.println("I am Math COnstructor");
 	}
 	
 	MathBook(int i){
