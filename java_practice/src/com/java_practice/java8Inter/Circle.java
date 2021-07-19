@@ -1,31 +1,40 @@
 package com.java_practice.java8Inter;
 
 public class Circle implements Shape, Dimention {
+	int id=2;
+	String shp;
+	
+	public Circle() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	public Circle(int id, String shp) {
+		this.id = id;
+		this.shp = shp;
+		// TODO Auto-generated constructor stub
+	}
+
 	@Override
 	public void calcArea() {
-		System.out.println("This is Cirlce");
-		Shape.shareType();
+		System.out.println("This is CalcArea");
 	}
 	
 	@Override
-	public boolean type() {
-		return Dimention.super.type();
+	public void getFormula() {
+		System.out.println("This is get formula");
 	}
 	
-	void circleMethod() {
-		System.out.println("This Circle Method");
+	@Override
+	public boolean dimFormula(int i) {
+		return Dimention.super.dimFormula(1);
 	}
 	
 	public static void main(String[] args) {
-		Shape.shareType();
 		Circle c = new Circle();
-		c.calcArea();
-		System.out.println(c.type());
-		c.circleMethod();
-		System.out.println("---------------->");
+		c.dimFormula(1);
+		c.getFormula();
 		Shape s = new Circle();
-		s.calcArea();
-		System.out.println(s.type());
-		Shape.shareType();
+		s.type();
 	}
+	
 }
