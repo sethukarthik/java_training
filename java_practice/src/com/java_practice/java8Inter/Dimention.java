@@ -12,8 +12,7 @@ public interface Dimention {
 	
 	default void dim() {
 		System.out.println("From Dimention dim emthid");
-	}
-	
+	}	
 //	static void staticFor() {
 //		System.out.println("This is static formula");
 //	}

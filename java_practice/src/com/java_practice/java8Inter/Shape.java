@@ -16,4 +16,9 @@ public interface Shape {
 	default boolean dimFormula(int i) {
 		return false;
 	}
+	
+
+//	public void ma();
+//	
+//	public void ma1();
 }
